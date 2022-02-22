@@ -8,44 +8,107 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <section>
     <header>
       <h1 id="pomofocus">Pomofocus</h1>
-    <button id="button1">Report</button>
-    <button id="button2">Setting</button>
-    <button id="button3">Login</button>
+      <button id="button1">Report</button>
+      <button id="button2">Setting</button>
+      <button id="button3">Login</button>
     </header>
 
     <main>
       <div class="timething">
-          <section id="timething_top">
-        <h3 id="pomodoro">Pomodoro</h3>
-        <h3>Short break</h3>
-        <h3>Long break</h3>
-    </section>
+        <section id="timething_top">
+          <!-- <img src="icon-white.png" alt="checkmark" />-->
+          <h3 id="pomodoro">Pomodoro</h3>
+          <h3>Short break</h3>
+          <h3>Long break</h3>
+        </section>
         <h1 id="time">24:59</h1>
         <div class="start">
-        <button id="start">START</button>
-    </div>
+          <button id="start">START</button>
+        </div>
       </div>
-      <h2>Working on</h2>
-      <p>Milk the cat</p>
-      <h3>Tasks</h3>
 
-      <div class="milk">
-          <p>Milk the cat</p>
+      <div id="working">
+        <h2>WORKING ON</h2>
+        <p>Milk the cat</p>
       </div>
-      <div class="code">
-        <p>code this</p>
-      </div>
-      <div class="add">
-          <p>Add task</p>
-      </div>
-      <div>
+
+      <section id="tasks_section">
+        <div id="tasks_div">
+          <h3>Tasks</h3>
+          <div id="img">
+            <img src="threedots-white.png" alt="dots" />
+          </div>
+        </div>
+
+        <div class="milk">
+          <img src="icon-white.png" alt="checkmark" />
+          <p id="milk_p1">Milk the cat</p>
+          <p id="milk_p2">0/1</p>
+        </div>
+
+        <div class="code">
+          <img src="icon-white.png" alt="checkmark" />
+          <p id="code_p">code this</p>
+          <p id="milk_p2">0/1</p>
+        </div>
+
+        <div class="add">
+          <p>+ Add task</p>
+        </div>
+
+        <div id="est">
           <p>Est 1 Act 0 Finish at 13:57</p>
+        </div>
+      </section>
+      <div class="section2">
+        <h1>An online Pomodoro Timer to boost your productivity</h1>
+        <h2>What is Pomofocus?</h2>
+        <p>
+          Pomofocus is a customizable pomodoro timer that works on desktop &
+          mobile browser. The aim of this app is to help you focus on any task
+          you are working on, such as study, writing, or coding. This app is
+          inspired by <b>Pomodoro Technique</b> which is a time management
+          method developed by Francesco Cirillo.
+        </p>
+
+        <h2>What is Pomodoro Technique?</h2>
+        <p>
+          The Pomodoro Technique is created by Francesco Cirillo for a more
+          productive way to work and study. The technique uses a timer to break
+          down work into intervals, traditionally 25 minutes in length,
+          separated by short breaks. Each interval is known as a pomodoro, from
+          the Italian word for 'tomato', after the tomato-shaped kitchen timer
+          that Cirillo used as a university student. - <b>Wikipedia</b>
+        </p>
+
+        <h2>How to use the Pomodoro Timer?</h2>
+        <ol>
+          <li><b>Add tasks</b> to work on today</li>
+          <li>
+            <b>Set estimate pomodoros</b> (1 = 25min of work) for each tasks
+          </li>
+          <li><b>Select a task</b> to work on</li>
+          <li><b>Start timer</b> and focus on the task for 25 minutes</li>
+          <li><b>Take a break</b> for 5 minutes when the alarm ring</li>
+          <li><b>Iterate</b> 3-5 until you finish the tasks</li>
+        </ol>
+
+        <h2>Features</h2>
+        <ul>
+          <li><b>Responsive design</b> that works with desktop and mobile</li>
+          <li>
+            <b>Color transition</b> to switch moods between work time and rest
+            time
+          </li>
+          <li><b>Audio notification</b> at the end of a timer period</li>
+          <li><b>Customizable timer</b> intervals to suit your preference</li>
+        </ul>
       </div>
-    </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>bla bla bla</p>
+    </footer>
   </body>
 </html>
