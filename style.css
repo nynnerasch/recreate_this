@@ -256,6 +256,10 @@ button {
   text-align: justify;
 }
 
+.section2 h1 {
+  text-align: left;
+}
+
 b {
   color: #db524d;
 }
@@ -271,6 +275,7 @@ footer {
 
 #footer {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
 }
 
@@ -278,13 +283,8 @@ footer h4 {
   text-align: center;
 }
 
-@media screen and (min-width: 425px) {
-  .section1 {
-    margin-left: 5rem;
-  }
-
+@media screen and (max-width: 500px) {
   header {
-    margin-left: 5rem;
     display: flex;
     flex-direction: column;
   }
@@ -292,7 +292,7 @@ footer h4 {
     margin: 2rem;
   }
 
-  #footer {
+  footer {
     flex-direction: column;
     margin-left: 0;
     margin-right: 0;
