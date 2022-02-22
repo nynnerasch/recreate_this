@@ -277,3 +277,25 @@ footer {
 footer h4 {
   text-align: center;
 }
+
+@media screen and (min-width: 425px) {
+  .section1 {
+    margin-left: 5rem;
+  }
+
+  header {
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .section2 {
+    margin: 2rem;
+  }
+
+  #footer {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+}
